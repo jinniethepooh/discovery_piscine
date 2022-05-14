@@ -1,0 +1,32 @@
+.top {
+    background-image: url("https://www.nlspacecampus.eu/cache/3/1200x960/shutterstock-481251031-20210610135721_1920x1080.jpg");
+    height: 550px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.mid {
+    height: 200px;
+    background-color: slategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.low {
+    background-image: url("https://techcrunch.com/wp-content/uploads/2022/04/newspace.jpg?w=1390&crop=1");
+    height: 550px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}

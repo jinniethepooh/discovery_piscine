@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="background.css">
+    <script>
+        function random_bg_color() {
+            var x = (Math.random() * 256);
+            var y = (Math.random() * 256);
+            var z = (Math.random() * 256);
+            var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+            document.body.style.background = bgColor;
+        }
+    </script>
+    <title>ex00 - randomBgColor</title>
+</head>
+
+<body>
+    <button onclick=random_bg_color()>Click me!</button>
+</body>
+
+</html>
